@@ -2,7 +2,7 @@
  * @Author: TonyJiangWJ
  * @Date: 2019-12-09 20:42:08
  * @Last Modified by: TonyJiangWJ
- * @Last Modified time: 2025-08-31 17:50:37
+ * @Last Modified time: 2025-12-20 15:12:08
  * @Description: 
  */
 require('./lib/Runtimes.js')(global)
@@ -106,6 +106,7 @@ let default_config = {
   friend_name_getting_regex: '(.*)的蚂蚁森林',
   magic_species_text: '点击发现|抽取今日|点击开启',
   magic_species_text_in_stroll: '.*神奇物种新图鉴.*',
+  disable_magic_species: false,
   // 查看更多好友的按钮
   enter_friend_list_ui_content: '.*查看更多好友.*',
   no_more_ui_content: '没有更多了',
